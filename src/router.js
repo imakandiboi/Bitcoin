@@ -10,21 +10,24 @@ const routes = [
     component: () => import('./views/index.vue'),
   },
   {
-    path: '/AboutPage',
-    name: 'AboutPage',
-    component: () => import('./views/AboutPage.vue'),
+    path: '/About_us',
+    name: 'About',
+    component: () => import('./views/About.vue'),
+  },
+
+  {
+    path: '/Investment_Plans',
+    name: 'Investment',
+    component: () => import('./views/Investment.vue'),
   },
 ]
 
-// const router = new VueRouter ({
-//  linkActiveClass: "active",
-//   routes,
-//   mode: "history",
-// });
+
 
 const router = createRouter({
   history : createWebHistory(),
-  routes : routes
+  routes,
+  linkActiveClass: "active",
 })
 
 

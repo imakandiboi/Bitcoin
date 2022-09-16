@@ -10,7 +10,7 @@
           <section class="col">
             <form action="">
               <!--Grid row-->
-              <div class="row d-flex justify-content-center">
+              <div class="row d-flex py-3 justify-content-center">
                 <!--Grid column-->
                 <div class="col-auto">
                   <p class="pt-2">
@@ -43,7 +43,7 @@
 
           <!-- Section: Text -->
           <section class="my-2">
-            <p class="w-75 mb-5 mt-5git init mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.</p>
+            <p class="w-75 my-3 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.</p>
           </section>
           <!-- Section: Text -->
 
@@ -52,7 +52,7 @@
             <!--Grid row-->
             <div class="row">
               <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div class="col-md-3 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Links</h5>
 
                 <ul class="list-unstyled mb-0">
