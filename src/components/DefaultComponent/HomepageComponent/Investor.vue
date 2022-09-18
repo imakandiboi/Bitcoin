@@ -1,6 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
+    <!-- DETAILINGS -->
     <section class="no-padding parallax" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover' }">
       <div class="container-fluid py-5">
         <div class="row py-5">
@@ -45,5 +46,15 @@ export default {
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
+}
+
+@media (max-width: 886px) {
+  .parallax {
+    padding: 20px 0px;
+  }
+
+  .about-text h4 h2 p {
+    color: #0035f5 !important;
+  }
 }
 </style>

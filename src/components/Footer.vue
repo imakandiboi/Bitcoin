@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <div class="footer container">
+    <div class="footer container-md p-0">
       <!-- Footer -->
       <footer class="text-white" style="background-color: #000000">
         <!-- Grid container -->
@@ -10,7 +10,7 @@
           <section class="col">
             <form action="">
               <!--Grid row-->
-              <div class="row d-flex py-3 justify-content-center">
+              <div class="row d-flex py-3 justify-content-lg-center">
                 <!--Grid column-->
                 <div class="col-auto">
                   <p class="pt-2">
@@ -42,8 +42,8 @@
           <!-- Section: Form -->
 
           <!-- Section: Text -->
-          <section class="my-2">
-            <p class="w-75 my-3 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.</p>
+          <section class="my-2 link-section">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.</p>
           </section>
           <!-- Section: Text -->
 
@@ -159,4 +159,19 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.link-section p {
+  width: 70%;
+  padding: 30px 0px;
+  margin: 0px auto;
+}
+
+/* mobile view */
+@media (max-width: 886px) {
+  .link-section p {
+    width: 100%;
+    padding: 40px 0px;
+    margin: 0px;
+  }
+}
+</style>

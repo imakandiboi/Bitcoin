@@ -1,15 +1,15 @@
 <template>
   <div>
     <!-- this section displays the companies products and what the company offers customers  -->
-    <div class="container">
+    <div class="container offer-section">
       <div class="row justify-content-center w-full m-1">
-        <div class="container-fluid company-section">
+        <div class="container company-section">
           <div class="d-flex justify-content-center my-5 mt-3-md w-100">
-            <div class="row">
+            <div class="row gy-3 gx-lg-0">
               <div class="col-md-4 col-sm">
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card border border-rounded rounded-3 border-dark">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                    <img :src="image3" class="card-img-top" alt="Fissure in Sandstone" />
                     <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="" class="m-2 btn btn-dark">Go somewhere</a>
@@ -26,7 +26,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-sm">
+              <div class="col-md-4 col-sm px-sm-0">
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card border border-rounded rounded-3 border-dark">
                     <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
@@ -134,8 +134,10 @@ export default {
 
   data() {
     return {
-      image: require('@/assets/img/grow.jpeg'),
-      image2: require('@/assets/img/stat.png'),
+      image3: require('@/assets/img/grow.jpeg'),
+
+      image2: require('@/assets/img/grow.jpeg'),
+      image: require('@/assets/img/stat.png'),
     }
   },
 }
@@ -162,6 +164,7 @@ export default {
   background: #ffffff;
 }
 .invest-card {
+  width: 95%;
   height: auto;
 }
 .ads {
@@ -176,15 +179,24 @@ export default {
 .mdb-logotypes img {
   max-width: 60px;
 }
+.logo-icon {
+  filter: grayscale(100%);
+}
 
+/* mobile display */
 @media (max-width: 1400px) {
   .mdb-logotypes img {
     max-width: 60px;
     margin-bottom: 10px;
   }
-}
+  .invest-card {
+    width: 100%;
+    height: auto;
+  }
 
-.logo-icon {
-  filter: grayscale(100%);
+  .offer-section {
+    width: 100%;
+    padding: 0px 0px;
+  }
 }
 </style>

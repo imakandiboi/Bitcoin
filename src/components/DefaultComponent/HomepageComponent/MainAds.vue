@@ -31,7 +31,18 @@
       </button>
     </div>
 
-    <div></div>
+    <div class="mobile-view" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
+      <section class="container-fluid">
+        <div class="content"></div>
+        <div class="content overlay-box px-3">
+          <p class="first-cap">Get the into the world of Crypto ivestments across all market stocks.</p>
+          <hr class="line" />
+          <p class="second-cap">BEST OF INVESTMENT</p>
+
+          <p class="third-cap">GET STARTED WITH IN-DEPT MARKET ANALYSIS .</p>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -56,6 +67,8 @@ export default {
       //url for placeholder image
       loading: true,
       // image: ,
+
+      image: require('@/assets/img/stat.png'),
     }
   },
   mounted() {
@@ -67,6 +80,11 @@ export default {
 </script>
 
 <style scoped>
+.mobile-view {
+  position: relative;
+  display: none;
+  height: 80vh;
+}
 .carousel .carousel-item {
   height: 800px;
 }
@@ -77,5 +95,57 @@ export default {
   top: 0;
   left: 0;
   min-height: 800px;
+}
+
+.content {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  color: rgba(248, 248, 248, 0.902);
+}
+
+.overlay-box {
+  background: #936c7492;
+  z-index: 1;
+  width: 100%;
+  /* for demo purpose  */
+}
+
+.content .first-cap {
+  font-size: 17px;
+  padding: 10px 0px 10px 0px;
+  font-family: Times, serif;
+}
+.content .second-cap {
+  font-size: 27px;
+  padding: 10px 0px 20px 0px;
+  font-family: Times, serif;
+}
+
+.content .third-cap {
+  font-size: 45px;
+  padding: 10px 0px 30px 0px;
+  font-family: Times, serif;
+}
+
+.line {
+  width: 95%;
+  height: 5px;
+  color: black;
+}
+@media (max-width: 886px) {
+  .carousel {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+    height: 90vh;
+    position: relative;
+    background: #ffff;
+  }
 }
 </style>

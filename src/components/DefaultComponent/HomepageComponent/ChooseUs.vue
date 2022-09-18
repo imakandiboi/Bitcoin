@@ -1,6 +1,12 @@
 <template>
+  <!-- choose us section 
+
+
+this tell why user should choose us 
+
+ -->
   <div>
-    <section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="img/bg/shape-01.png" style="background-image: url('img/bg/shape-01.png')">
+    <section class="lg chose-us bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="img/bg/shape-01.png" style="background-image: url('img/bg/shape-01.png')">
       <div class="container">
         <div class="section-heading title-style8">
           <h3>Why Choose Bexo Capital?</h3>
@@ -266,5 +272,26 @@ p {
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+@media (max-width: 886px) {
+  .image {
+    max-width: 40px;
+    margin-bottom: 10px;
+  }
+  .chose-us {
+    padding: 10px 0px;
+  }
+
+  section.lg {
+    padding: 30px 0;
+  }
+
+  .section-heading {
+    padding: 20px 0px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 </style>
