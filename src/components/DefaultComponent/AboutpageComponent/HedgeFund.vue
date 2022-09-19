@@ -1,15 +1,15 @@
 <template>
   <div>
-    <section class="container">
+    <section class="container-md">
       <div class="hedgefund">
         <div class="row">
-          <div class="col-md-6 sm-display">
-            <div class="about-ceo margin-50px-left sm-no-margin-left">
+          <div class="col-md-6 img-sec">
+            <div class="about-ceo">
               <img :src="image" alt="" />
               <div class=""></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 img-cap">
             <div class="section-heading title-style5 left half line-height-normal">
               <span>Hedge Funds</span>
               <h2>Our funds are diversified to include protocols and blockchain companies.</h2>
@@ -100,5 +100,29 @@ export default {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 886px) {
+  .hedgefund {
+    padding: 0px 0px;
+  }
+
+  .about-ceo {
+    width: auto;
+    padding: 0px;
+  }
+  .about-ceo img {
+    width: auto;
+    height: 350px;
+  }
+
+  .img-sec {
+    width: auto;
+    padding: 0px;
+  }
+
+  .img-cap {
+    margin: 40px 10px;
+  }
 }
 </style>

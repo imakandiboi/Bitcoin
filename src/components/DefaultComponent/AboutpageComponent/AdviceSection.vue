@@ -90,4 +90,33 @@ export default {
   -webkit-transition: width 0.4s;
   transition: width 0.4s;
 }
+
+/* mobile viiew */
+
+@media (max-width: 886px) {
+  .image {
+    height: auto;
+    background-image: cover;
+  }
+
+  .half h4 {
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 140%;
+    color: #f7f7f7;
+  }
+
+  .half h6 {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 140%;
+    color: #f7f7f7;
+  }
+}
 </style>

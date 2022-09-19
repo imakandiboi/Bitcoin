@@ -35,8 +35,4 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.h-100 {
-  height: 140px;
-}
-</style>
+<style scoped></style>
