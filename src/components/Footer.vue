@@ -149,5 +149,9 @@ export default {
     padding: 40px 0px;
     margin: 0px;
   }
+
+  .form-label {
+    margin: 20px 0px 0px 0px;
+  }
 }
 </style>

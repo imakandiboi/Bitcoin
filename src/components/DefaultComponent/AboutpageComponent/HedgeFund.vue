@@ -2,7 +2,7 @@
   <div>
     <section class="container-md">
       <div class="hedgefund">
-        <div class="row">
+        <div class="row container">
           <div class="col-md-6 img-sec">
             <div class="about-ceo">
               <img :src="image" alt="" />
@@ -19,7 +19,7 @@
               </div>
             </div>
 
-            <p style="font-size: 17px; line-height: 36px">Our funds focus on tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts. In addition, we invest in early token sales that interact with an actual business or product in the blockchain ecosystem.</p>
+            <p style="font-size: 15px; line-height: 26px">Our funds focus on tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts. In addition, we invest in early token sales that interact with an actual business or product in the blockchain ecosystem.</p>
 
             <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
               <a href="user/register.php"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>

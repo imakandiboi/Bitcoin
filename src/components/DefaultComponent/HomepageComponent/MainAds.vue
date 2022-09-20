@@ -31,15 +31,17 @@
       </button>
     </div>
 
-    <div class="mobile-view" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
+    <div class="mobile-view mt-5" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
       <section class="container-fluid">
         <div class="content"></div>
         <div class="content overlay-box px-3">
-          <p class="first-cap">Get the into the world of Crypto ivestments across all market stocks.</p>
+          <p class="first-cap mt-3">Get the into the world of Crypto ivestments across all market stocks.</p>
           <hr class="line" />
           <p class="second-cap">BEST OF INVESTMENT</p>
 
           <p class="third-cap">GET STARTED WITH IN-DEPT MARKET ANALYSIS .</p>
+
+          <a href="#about" class="mx-3 my-4 btn btn-lg btn-style2 py-3 text-light theme"><span>Get Started</span></a>
         </div>
       </section>
     </div>
@@ -108,7 +110,7 @@ export default {
 }
 
 .overlay-box {
-  background: #936c7492;
+  background: #392f3192;
   z-index: 1;
   width: 100%;
   /* for demo purpose  */
@@ -117,18 +119,19 @@ export default {
 .content .first-cap {
   font-size: 17px;
   padding: 10px 0px 10px 0px;
-  font-family: Times, serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .content .second-cap {
-  font-size: 27px;
-  padding: 10px 0px 20px 0px;
-  font-family: Times, serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .content .third-cap {
   font-size: 45px;
   padding: 10px 0px 30px 0px;
-  font-family: Times, serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .line {
@@ -136,6 +139,27 @@ export default {
   height: 5px;
   color: black;
 }
+
+.btn-style2 {
+  background: rgb(56, 55, 55);
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: 2px solid rgb(255, 255, 255);
+  color: #232323;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border-radius: 0;
+  text-transform: uppercase;
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
 @media (max-width: 886px) {
   .carousel {
     display: none;
