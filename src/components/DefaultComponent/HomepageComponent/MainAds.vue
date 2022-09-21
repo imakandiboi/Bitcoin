@@ -39,7 +39,7 @@
           <hr class="line" />
           <p class="second-cap">BEST OF INVESTMENT</p>
 
-          <p class="third-cap">GET STARTED WITH IN-DEPT MARKET ANALYSIS .</p>
+          <p class="third-cap">GET STARTED WITH IN-DEPT <span class="bg-warning m-2">MARKET ANALYSIS .</span></p>
 
           <a href="#about" class="mx-3 my-4 btn btn-lg btn-style2 py-3 text-light theme"><span>Get Started</span></a>
         </div>

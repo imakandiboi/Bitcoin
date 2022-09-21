@@ -4,6 +4,7 @@
     <nav class="navbar navbar-light navbar-expand-lg bg-light py-2 py-sm-3 px-2 fixed-top">
       <div class="container">
         <router-link :to="{ name: 'Home' }">
+          <img :src="image" alt="" srcset="" class="nav-img" />
           <a class="navbar-brand" href="#"> <img src="" alt="" srcset="" class="logo" /> LOGO </a>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -50,7 +51,11 @@
         </div>
       </div>
     </nav>
+    <!-- this is news  -->
 
+    <div class="mt-5 widget fixed container-fluid">
+      <div id="coinmarketcap-widget-marquee" coins="1,1027,825,2010,6636,1883,11346,1831" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+    </div>
     <!-- END OF NAVIGATION BAR -->
   </div>
 </template>
@@ -58,10 +63,24 @@
 <script>
 export default {
   name: 'NavBar',
+  data() {
+    return {
+      image: require('@/assets/img/bitcoin.png'),
+    }
+  },
 }
 </script>
 
 <style scoped>
+.widget {
+  padding: 0px;
+  position: absolute;
+  top: 4%;
+  z-index: 3;
+}
+.nav-img {
+  width: 30px;
+}
 .headnav {
   height: 70px;
 }
@@ -75,5 +94,14 @@ export default {
   font-style: normal;
   font-variant: small-caps;
   font-weight: 100;
+}
+
+@media (max-width: 886px) {
+  .widget {
+    padding: 0px;
+    position: absolute;
+    top: 0.8%;
+    z-index: 3;
+  }
 }
 </style>
