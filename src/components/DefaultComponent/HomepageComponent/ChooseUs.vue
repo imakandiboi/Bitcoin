@@ -9,8 +9,8 @@ this tell why user should choose us
     <section class="lg chose-us bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="img/bg/shape-01.png" style="background-image: url('img/bg/shape-01.png')">
       <div class="container">
         <div class="section-heading title-style8">
-          <h3>Why Choose Bexo Capital?</h3>
-          <p class="width-55 sm-width-75 xs-width-95 center-col">There are countless reasons why we stand out amongst other investment firms, and our direct competition. Here are some of those reasons:</p>
+          <h3 class="font-quicksand">Why Choose Bexo Capital?</h3>
+          <p class="width-55 sm-width-75 xs-width-95 center-col font-quicksand">There are countless reasons why we stand out amongst other investment firms, and our direct competition. Here are some of those reasons:</p>
         </div>
         <div class="row">
           <div class="bg-dark col-lg-6 col-md-6 col-sm-12 margin-30px-bottom sm-margin-20px-bottom">
@@ -22,14 +22,14 @@ this tell why user should choose us
                   </div>
                 </div>
                 <div class="col-10">
-                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom">Best Minds</h4>
-                  <p class="no-margin-bottom">Our team of analysts and traders have the deepest and broadest experiences in the financial markets, and especially in the blockchain ecosystem.</p>
+                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Best Minds</h4>
+                  <p class="no-margin-bottom font-quicksand">Our team of analysts and traders have the deepest and broadest experiences in the financial markets, and especially in the blockchain ecosystem.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="bg-dark col-lg-6 col-md-6 col-sm-12 margin-30px-bottom sm-margin-20px-bottom">
+          <div class="bg-dark col-lg-6 col-md-6 col-sm-12 margin-30px-bottom sm-margin-20px-bottom font-quicksand">
             <div class="feature-box-05 padding-40px-tb md-padding-30px-tb padding-20px-lr bg-card h-100">
               <div class="row">
                 <div class="col-2">
@@ -38,8 +38,8 @@ this tell why user should choose us
                   </div>
                 </div>
                 <div class="col-10">
-                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom">Unique Asset Classes</h4>
-                  <p class="no-margin-bottom">Bexo Capital looks for tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts.</p>
+                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Unique Asset Classes</h4>
+                  <p class="no-margin-bottom font-quicksand">Bexo Capital looks for tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts.</p>
                 </div>
               </div>
             </div>
@@ -54,8 +54,8 @@ this tell why user should choose us
                   </div>
                 </div>
                 <div class="col-10">
-                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom">Advanced Technology</h4>
-                  <p class="no-margin-bottom">We have combined a total of 35 technologies for our trading operations and security systems, to ensure that investors funds are safe.</p>
+                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Advanced Technology</h4>
+                  <p class="no-margin-bottom font-quicksand">We have combined a total of 35 technologies for our trading operations and security systems, to ensure that investors funds are safe.</p>
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@ this tell why user should choose us
                   </div>
                 </div>
                 <div class="col-10">
-                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom">Venture Backed</h4>
-                  <p class="no-margin-bottom">Over $400 million in assets from several traditional VC firms from Silicon Valley have been injected into the Bexo Capital project.</p>
+                  <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Venture Backed</h4>
+                  <p class="no-margin-bottom font-quicksand">Over $400 million in assets from several traditional VC firms from Silicon Valley have been injected into the Bexo Capital project.</p>
                 </div>
               </div>
             </div>
@@ -97,6 +97,9 @@ export default {
 </script>
 
 <style scoped>
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 section.lg {
   padding: 120px 0;
 }

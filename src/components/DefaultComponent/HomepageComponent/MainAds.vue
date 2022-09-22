@@ -118,7 +118,7 @@ export default {
 
 .content .first-cap {
   font-size: 17px;
-  padding: 10px 0px 10px 0px;
+  padding: 90px 0px 10px 0px;
   font-family: 'Quicksand', sans-serif;
 }
 .content .second-cap {

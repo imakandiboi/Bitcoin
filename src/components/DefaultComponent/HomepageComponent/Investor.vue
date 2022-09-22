@@ -9,14 +9,14 @@
             <div class="about-text about-overlay">
               <div class="width-85 md-width-100 sm-center-col">
                 <div class="section-heading left white">
-                  <h4 class="text-white">We manage your trades and investments</h4>
+                  <h4 class="text-white small-caption">We manage your trades and investments</h4>
                 </div>
                 <div class="inner-content">
-                  <h2 class="display-3 text-white"><span>“We have brought down risks to nearly 0%." </span> for all our active clients.</h2>
-                  <p class="xs-margin-10px-bottom text-white">Our investment strategy is such that we manage the trades and investments on behalf of our investors, so that they do not have to worry about the risks associated with investing in the financial markets.</p>
-                  <p class="text-white">Simply put, your investments are safer with us.</p>
+                  <h2 class="display-3 text-white light-caption"><span class="">“We have brought down risks to nearly 0%." for all our </span> Active clients.</h2>
+                  <p class="xs-margin-10px-bottom text-white small-caption">Our investment strategy is such that we manage the trades and investments on behalf of our investors, so that they do not have to worry about the risks associated with investing in the financial markets.</p>
+                  <p class="text-white small-caption-bold">Simply put, your investments are safer with us.</p>
                   <div class="bottom">
-                    <p class="thm-clr text-white">Smart investors choose us.</p>
+                    <p class="thm-clr text-white small-caption">Smart investors choose us.</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,22 @@ export default {
   overflow: hidden;
   background-attachment: fixed;
 }
+.small-caption {
+  padding: 5px 0px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+}
 
+.small-caption-bold {
+  padding: 5px 0px 10px 0px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+.light-caption {
+  font-size: 40px;
+  padding: 5px 0px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+}
 @media (max-width: 886px) {
   .parallax {
     padding: 20px 0px;
