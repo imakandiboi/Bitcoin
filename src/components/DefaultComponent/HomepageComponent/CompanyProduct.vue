@@ -8,31 +8,31 @@
             <div class="row gy-3 gx-lg-0">
               <div class="col-md-4 col-sm">
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card border border-rounded rounded-3 border-dark">
+                  <div class="card">
                     <img :src="image3" class="card-img-top" alt="Fissure in Sandstone" />
                     <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn btn-dark">Go somewhere</a>
+                    <a href="" class="m-2 btn-style2">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 col-sm">
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card border border-rounded rounded-3 border-dark">
+                  <div class="card">
                     <img :src="image" class="card-img-top" alt="Fissure in Sandstone" />
                     <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn btn-dark">Go somewhere</a>
+                    <a href="" class="m-2 btn-style2">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 col-sm px-sm-0">
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card border border-rounded rounded-3 border-dark">
+                  <div class="card">
                     <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
                     <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn btn-dark">Go somewhere</a>
+                    <a href="" class="m-2 btn-style2">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -147,14 +147,14 @@ export default {
 .large-zoom {
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 10px rgba(89, 89, 89, 0.08), 0 0 6px rgba(148, 148, 148, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   /* padding: 14px 80px 18px 36px; */
   cursor: pointer;
 }
 
 .large-zoom:hover {
-  transform: scale(1.06);
+  transform: scale(0.9);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
@@ -182,7 +182,27 @@ export default {
 .logo-icon {
   filter: grayscale(100%);
 }
-
+.btn-style2 {
+  background: rgb(15, 15, 15);
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: 2px solid rgb(255, 255, 255);
+  color: #fbf9f9;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
 /* mobile display */
 @media (max-width: 1400px) {
   .mdb-logotypes img {

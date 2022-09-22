@@ -5,7 +5,7 @@
       <div class="container">
         <router-link :to="{ name: 'Home' }">
           <img :src="image" alt="" srcset="" class="nav-img" />
-          <a class="navbar-brand" href="#"> <img src="" alt="" srcset="" class="logo" /> LOGO </a>
+          <a class="navbar-brand" href="#"> <img src="" alt="" srcset="" class="logo" /> Auro Capital Investment </a>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -72,6 +72,9 @@ export default {
 </script>
 
 <style scoped>
+.navbar-toggler {
+  outline: none;
+}
 .widget {
   padding: 0px;
   position: absolute;
@@ -95,7 +98,9 @@ export default {
   font-variant: small-caps;
   font-weight: 100;
 }
-
+.navbar a {
+  text-decoration: none;
+}
 @media (max-width: 886px) {
   .widget {
     padding: 0px;

@@ -9,7 +9,7 @@ this tell why user should choose us
     <section class="lg chose-us bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="img/bg/shape-01.png" style="background-image: url('img/bg/shape-01.png')">
       <div class="container">
         <div class="section-heading title-style8">
-          <h3 class="font-quicksand">Why Choose Bexo Capital?</h3>
+          <h3 class="font-quicksand">Why Choose Auro Capital Investment?</h3>
           <p class="width-55 sm-width-75 xs-width-95 center-col font-quicksand">There are countless reasons why we stand out amongst other investment firms, and our direct competition. Here are some of those reasons:</p>
         </div>
         <div class="row">
