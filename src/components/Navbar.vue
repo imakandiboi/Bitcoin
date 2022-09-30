@@ -1,16 +1,15 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
     <nav class="navbar navbar-light navbar-expand-lg bg-light py-2 py-sm-3 px-2 fixed-top">
       <div class="container">
-        <router-link :to="{ name: 'Home' }">
+        <router-link :to="{ path: '/' }">
           <img :src="image" alt="" srcset="" class="nav-img" />
-          <a class="navbar-brand" href="#"> <img src="" alt="" srcset="" class="logo" /> Auro Capital Investment </a>
+          <a class="navbar-brand font-quicksand" href="#"> <img src="" alt="" srcset="" class="logo" /> Auro Capital Investment </a>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas side-bar offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas side-bar offcanvas-end font-quicksand" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <img src="" alt="" srcset="" class="logo" />
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -18,7 +17,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 p-2">
               <li class="nav-item">
-                <router-link :to="{ name: 'Home' }">
+                <router-link :to="{ path: '/' }">
                   <span class="d-flex align-items-center gap-3">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </span>
@@ -72,6 +71,9 @@ export default {
 </script>
 
 <style scoped>
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 .navbar-toggler {
   outline: none;
 }

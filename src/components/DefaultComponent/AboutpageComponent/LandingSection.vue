@@ -7,8 +7,8 @@
             <div class="col-md-9 col-lg-7 display-table h-100 z-index-1 width-100">
               <!-- start banner headline text -->
               <div class="display-table-cell lander-text vertical-align-middle">
-                <p class="mx-3 my-2">Get X10 interest rate in just 24 hours. Minimum investment: $300 Maximum investment: $10,000,000. Payout is carried out every 24 hours</p>
-                <h1 class="lander-text mx-3">Invest in bitcoin Technology. Get X10 profit in 24 hours.</h1>
+                <p class="mx-3 my-2 font-quicksand">Get X10 interest rate in just 24 hours. Minimum investment: $300 Maximum investment: $10,000,000. Payout is carried out every 24 hours</p>
+                <h1 class="lander-text mx-3 font-quicksand">Invest in bitcoin Technology. Get X10 profit in 24 hours.</h1>
                 <a href="#about" class="mx-3 my-4 btn btn-lg btn-style2 py-3 text-light theme"><span>Get Started</span></a>
               </div>
               <!-- end banner headline text -->
@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 .lander {
   color: aliceblue;
   padding: 20px 0px;

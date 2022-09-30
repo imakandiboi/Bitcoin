@@ -1,8 +1,11 @@
+/* eslint-disable no-unused-vars */
 import { createApp } from 'vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-
+// const loadComponent = (view) => {
+//   return () => import(`../views/${view}.vue`);
+// }
 const routes = [
   {
     path: '/',
@@ -12,7 +15,7 @@ const routes = [
   {
     path: '/About_us',
     name: 'About',
-    component: () => import('./views/About.vue'),
+    component: () => import(/* webpackChunkName: "vuex" */ './views/About.vue'),      
   },
 
   {

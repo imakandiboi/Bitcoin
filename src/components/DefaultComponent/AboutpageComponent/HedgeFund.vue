@@ -2,7 +2,7 @@
   <div>
     <section class="container-md">
       <div class="hedgefund">
-        <div class="row container">
+        <div class="row container font-quicksand">
           <div class="col-md-6 img-sec">
             <div class="about-ceo">
               <img :src="image" alt="" />
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style scoped>
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 .hedgefund {
   padding: 90px 0px;
 }

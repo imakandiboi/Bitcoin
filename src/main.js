@@ -3,6 +3,7 @@ import App from './App.vue';
 
 import bootstrap from 'bootstrap';
 import router from './router';
+import VueAgile from 'vue-agile'
 
 import * as mdb from 'mdb-ui-kit'; // lib
 
@@ -10,7 +11,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css'
 // Import Bootstrap and BootstrapVue CSS files (order is important)
-
+import 'vue-video-section/dist/vue-video-section.css'
 
 import VueLoading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
@@ -22,4 +23,4 @@ import 'vue-loading-overlay/dist/vue-loading.css';
 //   router,
 //   render: (h) => h(App),
 // }).$mount('#app')
-createApp(App).use(router).use(VueLoading).mount('#app')
+createApp(App).use(router).use(VueAgile).use(VueLoading).mount('#app')
