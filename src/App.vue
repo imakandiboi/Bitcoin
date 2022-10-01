@@ -3,10 +3,11 @@
     <template>
       <div>
         <Navbar />
-        <main>
-          <router-view></router-view>
-        </main>
-
+      </div>
+      <main>
+        <router-view></router-view>
+      </main>
+      <div>
         <Footer />
       </div>
     </template>
@@ -14,10 +15,8 @@
 </template>
 
 <script>
-import { ref, onErrorCaptured } from 'vue'
-
 import Navbar from '@/components/Navbar'
-import Footer from './components/Footer.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   name: 'App',
 
