@@ -20,15 +20,7 @@ import Navbar from '@/components/Navbar'
 import Footer from './components/Footer.vue'
 export default {
   name: 'App',
-  // setup() {
-  //   const error = ref(null)
 
-  //   onErrorCaptured((e) => {
-  //     error.value = e
-  //   })
-
-  //   return { error }
-  // },
   components: {
     Navbar,
     Footer,
