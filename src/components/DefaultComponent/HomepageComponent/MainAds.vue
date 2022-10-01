@@ -51,7 +51,6 @@
 </template>
 
 <script>
-//importing bootstrap 5
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import * as Bootstrap from 'bootstrap'
@@ -59,18 +58,9 @@ export default {
   name: 'MainAds',
   components: {},
 
-  // function() {
-  //   if (this.source) {
-  //     //is it empty
-  //     this.image = this.source //replace placeholder
-  //   }
-  //   this.loading = false
-  // },
   data() {
     return {
-      //url for placeholder image
       loading: true,
-      // image: ,
 
       image: require('@/assets/img/stat.png'),
     }

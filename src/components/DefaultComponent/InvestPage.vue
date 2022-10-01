@@ -9,7 +9,7 @@
 <script>
 import StepInvest from '@/components/DefaultComponent/InvestpageComponent/StepInvest.vue'
 export default {
-  name: 'StepInvest',
+  name: 'InvestPage',
   components: {
     StepInvest,
   },

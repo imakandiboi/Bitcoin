@@ -3,7 +3,9 @@ import { createApp } from 'vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-
+// const loadComponent = (view) => {
+//   return () => import(`../views/${view}.vue`);
+// }
 const routes = [
   {
     path: '/',
