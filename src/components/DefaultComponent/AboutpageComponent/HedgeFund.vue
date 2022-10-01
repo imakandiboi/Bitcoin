@@ -60,7 +60,7 @@ export default {
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+
   font-size: 15px;
   color: #131313;
   font-weight: 400;
