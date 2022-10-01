@@ -22,8 +22,6 @@
 </template>
 
 <script>
-// import { ref, defineAsyncComponent } from 'vue'
-// import loaderComponent from '@/components/Utility/Loader.vue'
 import { ref, onErrorCaptured } from 'vue'
 
 import Navbar from '@/components/Navbar'
@@ -42,7 +40,6 @@ export default {
   components: {
     Navbar,
     Footer,
-    // loaderComponent
   },
 }
 </script>

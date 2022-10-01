@@ -2,12 +2,20 @@
 
 <template>
   <div>
-    <div></div>
+    <div>
+      <InvestPage />
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import InvestPage from '@/components/DefaultComponent/InvestPage.vue'
+
+export default {
+  components: {
+    InvestPage,
+  },
+}
 </script>
 
 <style></style>

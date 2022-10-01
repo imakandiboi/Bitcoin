@@ -184,12 +184,12 @@ export default {
   filter: grayscale(100%);
 }
 .btn-style2 {
-  background: rgb(15, 15, 15);
+  background: rgb(255, 255, 255);
   display: inline-block;
   font-size: 14px;
   padding: 12px 20px;
-  border: 2px solid rgb(255, 255, 255);
-  color: #fbf9f9;
+  border: 2px solid rgb(4, 4, 4);
+  color: #0d0d0d;
   letter-spacing: 0.5px;
   line-height: 26px;
   border-radius: 0;
