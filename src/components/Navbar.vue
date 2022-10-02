@@ -24,14 +24,14 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link :to="{ name: 'About' }">
+                <router-link :to="{ path: '/About_us' }">
                   <span class="d-flex align-items-center gap-3">
                     <a class="nav-link" href="#">About Us</a>
                   </span>
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link :to="{ name: 'Investment' }">
+                <router-link :to="{ path: '/Investment_Plans' }">
                   <span class="d-flex align-items-center gap-3">
                     <a class="nav-link" href="#">Investment Plan</a>
                   </span>

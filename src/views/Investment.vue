@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div>
+    <div class="invest">
       <InvestPage />
     </div>
   </div>
@@ -18,4 +18,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.invest {
+  margin: 50px 0px 0px 0px;
+}
+</style>
