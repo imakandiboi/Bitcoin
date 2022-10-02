@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "dev": "yarn serve",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && yarn install && yarn dev"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
