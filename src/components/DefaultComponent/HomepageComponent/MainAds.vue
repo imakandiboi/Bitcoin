@@ -60,15 +60,15 @@ export default {
 
   data() {
     return {
-      loading: true,
+      // loading: true,
 
       image: require('@/assets/img/stat.png'),
     }
   },
-  mounted() {
-    var myCarousel = document.querySelector('#myCarousel')
-    new Bootstrap.Carousel(myCarousel)
-  },
+  // mounted() {
+  //   var myCarousel = document.querySelector('#myCarousel')
+  //   new Bootstrap.Carousel(myCarousel)
+  // },
   computed: {},
 }
 </script>
