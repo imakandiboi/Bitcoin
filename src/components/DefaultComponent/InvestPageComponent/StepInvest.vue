@@ -9,21 +9,24 @@
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
                   <div class="ms-2 c-details">
-                    <h6 class="my-2">Starter's Investment Plan</h6>
-                    <span>1 days ago</span>
+                    <h6 class="my-2">Starter's Chioce Investment Plan</h6>
+                    <span>min. deposit : $500</span>
                   </div>
                 </div>
                 <div class="badge"><span>10% off</span></div>
               </div>
               <div class="mt-5">
-                <img src="" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Senior Product<br />Designer-Singapore</h3>
+                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                <h3 class="heading">Starter's Choice<br />Level</h3>
                 <div class="mt-5">
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <div class="mt-3">
-                    <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span>
+                    <span class="text1">800,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
+                  </div>
+                  <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
+                    <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
                   </div>
                 </div>
               </div>
@@ -35,21 +38,24 @@
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
                   <div class="ms-2 c-details">
-                    <h6 class="my-2">Starter's Investment Plan</h6>
-                    <span>1 days ago</span>
+                    <h6 class="my-2">Professional's Choice Investment Plan</h6>
+                    <span>min. deposit : $1500</span>
                   </div>
                 </div>
-                <div class="badge"><span>Design</span></div>
+                <div class="badge"><span>30% off</span></div>
               </div>
               <div class="mt-5">
-                <img src="" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Senior Product<br />Designer-Singapore</h3>
+                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                <h3 class="heading">Professional's Choice<br />Level</h3>
                 <div class="mt-5">
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <div class="mt-3">
-                    <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span>
+                    <span class="text1"> 1,380,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
+                  </div>
+                  <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
+                    <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
                   </div>
                 </div>
               </div>
@@ -61,22 +67,25 @@
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
                   <div class="ms-2 c-details">
-                    <h6 class="my-2">Starter's Investment Plan</h6>
-                    <span>1 days ago</span>
+                    <h6 class="my-2">Intermediate's Choice Investment Plan</h6>
+                    <span>min. deposit : $1000</span>
                   </div>
                 </div>
-                <div class="badge"><span>Design</span></div>
+                <div class="badge"><span>25% off</span></div>
               </div>
               <div class="mt-5">
-                <img src="" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Senior Product<br />Designer-Singapore</h3>
+                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                <h3 class="heading">Intermediate's Choice<br />Level</h3>
                 <div class="mt-5">
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <div class="mt-3">
-                    <span class="text1">32,000 Investors Applied <span class="text2">of 2,500,000 Investors</span></span>
+                    <span class="text1">320,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
                   </div>
+                </div>
+                <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
+                  <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
                 </div>
               </div>
             </div>
@@ -92,6 +101,7 @@ export default {
   data() {
     return {
       image: require('@/assets/img/advicer.jpeg'),
+      starterimage: require('@/assets/img/advicer.jpeg'),
     }
   },
 }
@@ -130,6 +140,25 @@ body {
   justify-content: center;
   font-size: 39px;
 }
+.btn-style2 {
+  background: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: 2px solid #222;
+  color: #232323;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border-radius: 0;
+  text-transform: uppercase;
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
 
 .badge span {
   background-color: #fffbec;
@@ -138,7 +167,7 @@ body {
   padding-bottom: 3px;
   border-radius: 5px;
   display: flex;
-  color: #fed85d;
+  color: #fe5d5d;
   justify-content: center;
   align-items: center;
 }
