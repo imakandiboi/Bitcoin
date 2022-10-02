@@ -11,7 +11,7 @@
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card">
                     <img :src="image3" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 pt-5 fw-light">BASIC INVESTOR'S CHOICE</h3>
+                    <h3 class="card-title m-2 pt-5 fw-light">30% RETURN ON INVESTMENT.</h3>
                     <p class="m-2 card-text fw-light">30% return investment profit paid back after 21 days of Investment maturity. Starting off with minimum balance account opening .</p>
                     <a href="" class="m-2 btn-style2">Get Started</a>
                   </div>
@@ -21,9 +21,9 @@
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card">
                     <img :src="image" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
-                    <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn-style2">Go somewhere</a>
+                    <h3 class="card-title m-2 pt-5 fw-light">IN-DEPT MARKET ANALYSIS AND MARKET PREDICTIONS.</h3>
+                    <p class="m-2 card-text fw-light">With our Standard market analysts, we give the best market analysis and prediction according to standard trend of chart flow .</p>
+                    <a href="" class="m-2 btn-style2">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -31,9 +31,9 @@
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card">
                     <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 fw-light">Best Investment Plan</h3>
+                    <h3 class="card-title m-2 pt-5 fw-light">Best Investment Plan</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn-style2">Go somewhere</a>
+                    <a href="" class="m-2 btn-style2">Get Started</a>
                   </div>
                 </div>
               </div>

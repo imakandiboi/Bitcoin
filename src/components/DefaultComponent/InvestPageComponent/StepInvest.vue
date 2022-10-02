@@ -4,7 +4,7 @@
       <div class="container card-container mb-3">
         <div class="row">
           <div class="col-md-4">
-            <div class="card p-2 mb-2">
+            <div class="card p-2 mb-2 large-zoom">
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
@@ -26,14 +26,14 @@
                     <span class="text1">800,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
                   </div>
                   <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
-                    <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
+                    <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card p-2 mb-2">
+            <div class="card p-2 mb-2 large-zoom">
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
@@ -55,14 +55,14 @@
                     <span class="text1"> 1,380,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
                   </div>
                   <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
-                    <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
+                    <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card p-2 mb-2">
+            <div class="card p-2 mb-2 large-zoom">
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-row align-items-center">
                   <div class="icon"><i class="bx bxl-mailchimp"></i></div>
@@ -85,7 +85,7 @@
                   </div>
                 </div>
                 <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
-                  <a href="user/register.php"><span class="btn-style2 small theme">Get Started</span></a>
+                  <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
                 </div>
               </div>
             </div>
@@ -98,6 +98,7 @@
 
 <script>
 export default {
+  name: 'stepInvest',
   data() {
     return {
       image: require('@/assets/img/advicer.jpeg'),
@@ -133,7 +134,7 @@ body {
 .icon {
   width: 20px;
   height: 20px;
-  background-color: #eee;
+  background-color: rgba(35, 107, 2, 0.559);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -172,13 +173,27 @@ body {
   align-items: center;
 }
 
+.large-zoom {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(89, 89, 89, 0.08), 0 0 6px rgba(148, 148, 148, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+
+.large-zoom:hover {
+  transform: scale(0.9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
 .progress {
   height: 10px;
   border-radius: 10px;
 }
 
 .progress div {
-  background-color: red;
+  background-color: rgba(35, 107, 2, 0.559);
 }
 
 .text1 {

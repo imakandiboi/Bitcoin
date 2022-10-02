@@ -157,6 +157,7 @@ export default {
 }
 .link-section p {
   width: 100%;
+  font-size: 15px;
   padding: 30px 0px;
   margin: 0px auto;
 }

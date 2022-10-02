@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="banner-sector">
-      <StepInvest />
+      <stepInvest />
     </div>
   </div>
 </template>
 
 <script>
-import StepInvest from '@/components/DefaultComponent/InvestpageComponent/StepInvest.vue'
+import stepInvest from '@/components/DefaultComponent/investpageComponent/stepInvest.vue'
 export default {
   name: 'InvestPage',
   components: {
-    StepInvest,
+    stepInvest,
   },
 }
 </script>

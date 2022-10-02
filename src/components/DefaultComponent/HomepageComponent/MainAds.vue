@@ -8,13 +8,14 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.E-h8EFHUvHip4ih81PdTuwHaEE%26pid%3DApi&f=1" class="d-block w-100 h-50" style="height: 50%" alt="..." />
+        <div class="carousel-item">
+          <img :src="sliderimage" class="d-block w-100 h-50" style="height: 50%" alt="..." />
         </div>
         <div class="carousel-item active">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.E-h8EFHUvHip4ih81PdTuwHaEE%26pid%3DApi&f=1" class="d-block w-100 h-50" style="height: 50%" alt="..." />
+          <img :src="sliderimage2" class="d-block w-100 h-50" style="height: 50%" alt="..." />
         </div>
         <div class="carousel-item">
           <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.E-h8EFHUvHip4ih81PdTuwHaEE%26pid%3DApi&f=1" class="d-block w-100 h-50" style="height: 50%" alt="..." />
@@ -60,15 +61,12 @@ export default {
 
   data() {
     return {
-      // loading: true,
-
       image: require('@/assets/img/stat.png'),
+      sliderimage: require('@/assets/img/slideimg1.png'),
+      sliderimage2: require('@/assets/img/clustchart.png'),
     }
   },
-  // mounted() {
-  //   var myCarousel = document.querySelector('#myCarousel')
-  //   new Bootstrap.Carousel(myCarousel)
-  // },
+
   computed: {},
 }
 </script>

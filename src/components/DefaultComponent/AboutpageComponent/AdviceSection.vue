@@ -61,6 +61,7 @@ export default {
   letter-spacing: 0.5px;
   line-height: 26px;
   border-radius: 0;
+  text-decoration: none;
   text-transform: capitalize;
   width: auto;
   font-family: 'Montserrat', sans-serif;
