@@ -1,13 +1,18 @@
 <template>
   <div>
-    <div class="banner-sector"></div>
+    <div class="banner-sector">
+      <StepInvest />
+    </div>
   </div>
 </template>
 
 <script>
+import StepInvest from '@/components/DefaultComponent/InvestpageComponent/StepInvest.vue'
 export default {
   name: 'InvestPage',
-  components: {},
+  components: {
+    StepInvest,
+  },
 }
 </script>
 
