@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="parallax py-5 image" data-overlay-dark="7" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
+    <section class="py-5 image" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
       <div class="container card-container mb-3">
         <div class="row">
           <div class="col-md-4">
@@ -98,7 +98,7 @@
 
 <script>
 export default {
-  name: 'stepInvest',
+  name: 'InvestPrice',
   data() {
     return {
       image: require('@/assets/img/advicer.jpeg'),
