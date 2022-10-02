@@ -4,7 +4,7 @@
       <div class="container">
         <router-link :to="{ path: '/' }">
           <img :src="image" alt="" srcset="" class="nav-img" />
-          <a class="navbar-brand font-quicksand" href="#"> <img src="" alt="" srcset="" class="logo" /> Auro Capital Investment </a>
+          <a class="navbar-brand font-quicksand" href="/"> <img src="" alt="" srcset="" class="logo" /> Auro Capital Investment </a>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -19,27 +19,27 @@
               <li class="nav-item">
                 <router-link :to="{ path: '/' }">
                   <span class="d-flex align-items-center gap-3">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                   </span>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link :to="{ path: '/About_us' }">
                   <span class="d-flex align-items-center gap-3">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="/About_us">About Us</a>
                   </span>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link :to="{ path: '/Investment_Plans' }">
                   <span class="d-flex align-items-center gap-3">
-                    <a class="nav-link" href="#">Investment Plan</a>
+                    <a class="nav-link" href="/Investment_Plans">Investment Plan</a>
                   </span>
                 </router-link>
               </li>
 
               <li class="nav-item">
-                <router-link :to="{ name: 'About' }">
+                <router-link :to="{ path: 'Sign_up' }">
                   <span class="d-flex align-items-center gap-2">
                     <a class="nav-link" href="#">Sign Up</a>
                   </span>

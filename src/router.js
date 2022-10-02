@@ -21,7 +21,15 @@ const routes = [
   {
     path: '/Investment_Plans',
     name: 'Investment',
-    component: () => import('./views/Investment.vue'),
+    component: () => import(/* webpackChunkName: "vuex" */ './views/Investment.vue'),      
+  },
+
+
+  {
+    path: '/Sign_up',
+    name: 'SignUp',
+    component: () => import(/* webpackChunkName: "vuex" */ './views/signUp.vue'),      
+
   },
 ]
 

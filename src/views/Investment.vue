@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .invest {
-  margin: 50px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 </style>
