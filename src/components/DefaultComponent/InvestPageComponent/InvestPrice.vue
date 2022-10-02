@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- <div class="py-5 image" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }"></div> -->
+
     <div class="py-5 image" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
       <div class="container card-container mb-3">
         <div class="row">
