@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-5 image" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
+    <div class="py-5 image" :style="{ 'background-image': 'url(' + image + ')', backgroundPosition: 'center center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }">
       <div class="container card-container mb-3">
         <div class="row">
           <div class="col-md-4">
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </template>
 
