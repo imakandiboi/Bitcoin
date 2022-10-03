@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import landerAds from '@/components/DefaultComponent/InvestpageComponent/landerAds.vue'
+import landerAds from '@/components/DefaultComponent/PlanpageComponent/landerAds'
 export default {
   name: 'InvestPage',
   components: {
