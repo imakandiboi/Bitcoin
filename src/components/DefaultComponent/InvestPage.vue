@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="banner-sector">
-      <InvestPrice />
+      <!-- <InvestPrice /> -->
     </div>
   </div>
 </template>
 
 <script>
-import InvestPrice from '@/components/DefaultComponent/investpageComponent/InvestPrice.vue'
+// import InvestPrice from '@/components/DefaultComponent/investpageComponent/InvestPrice.vue'
 export default {
   name: 'InvestPage',
   components: {
-    InvestPrice,
+    // InvestPrice,
   },
 }
 </script>
