@@ -11,6 +11,8 @@
                   <div class="ms-2 c-details">
                     <h6 class="my-2">Starter's Chioce Investment Plan</h6>
                     <span>min. deposit : $500</span>
+                    <br />
+                    <span>max. deposit : $999,999</span>
                   </div>
                 </div>
                 <div class="badge"><span>10% off</span></div>
@@ -23,7 +25,7 @@
                     <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <div class="mt-3">
-                    <span class="text1">800,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
+                    <span class="text1">320,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
                   </div>
                   <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
                     <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
@@ -40,6 +42,9 @@
                   <div class="ms-2 c-details">
                     <h6 class="my-2">Professional's Choice Investment Plan</h6>
                     <span>min. deposit : $1500</span>
+                    <br />
+
+                    <span>max. deposit : $999,999</span>
                   </div>
                 </div>
                 <div class="badge"><span>30% off</span></div>
@@ -69,6 +74,9 @@
                   <div class="ms-2 c-details">
                     <h6 class="my-2">Intermediate's Choice Investment Plan</h6>
                     <span>min. deposit : $1000</span>
+                    <br />
+
+                    <span>max. deposit : $999,999</span>
                   </div>
                 </div>
                 <div class="badge"><span>25% off</span></div>
@@ -78,10 +86,10 @@
                 <h3 class="heading">Intermediate's Choice<br />Level</h3>
                 <div class="mt-5">
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                   <div class="mt-3">
-                    <span class="text1">320,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
+                    <span class="text1">800,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
                   </div>
                 </div>
                 <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
