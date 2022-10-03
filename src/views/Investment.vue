@@ -1,9 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-
 <template>
   <div>
     <div class="invest">
-      <InvestPage />
+      <Invest-Page />
     </div>
   </div>
 </template>
