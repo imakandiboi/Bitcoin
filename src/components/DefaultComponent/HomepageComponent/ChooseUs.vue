@@ -39,7 +39,7 @@ this tell why user should choose us
                 </div>
                 <div class="col-10">
                   <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Unique Asset Classes</h4>
-                  <p class="no-margin-bottom font-quicksand">Bexo Capital looks for tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts.</p>
+                  <p class="no-margin-bottom font-quicksand">Auro Capital Investment looks for tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts.</p>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ this tell why user should choose us
                 </div>
                 <div class="col-10">
                   <h4 class="font-weight-600 font-size20 md-font-size18 sm-font-size16 margin-10px-bottom sm-margin-8px-bottom font-quicksand">Venture Backed</h4>
-                  <p class="no-margin-bottom font-quicksand">Over $400 million in assets from several traditional VC firms from Silicon Valley have been injected into the Bexo Capital project.</p>
+                  <p class="no-margin-bottom font-quicksand">Over $400 million in assets from several traditional VC firms from Silicon Valley have been injected into the Auro Capital Investment project.</p>
                 </div>
               </div>
             </div>
