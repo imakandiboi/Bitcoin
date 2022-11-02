@@ -5,8 +5,6 @@ import bootstrap from 'bootstrap';
 import router from './router';
 import { domain, client_id } from './auth_config.json';
 
-// Import the plugin here
-import * as mdb from 'mdb-ui-kit'; // lib
 
 import 'bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
