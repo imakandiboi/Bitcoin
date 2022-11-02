@@ -39,9 +39,9 @@
               </li>
 
               <li class="nav-item">
-                <router-link :to="{ path: 'Sign_up' }">
+                <router-link :to="{ path: '/Sign_up' }">
                   <span class="d-flex align-items-center gap-2">
-                    <a class="nav-link" href="#">Sign Up</a>
+                    <a class="nav-link" href="/Sign_up">Get Started</a>
                   </span>
                 </router-link>
               </li>

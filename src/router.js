@@ -3,6 +3,8 @@ import { createApp } from 'vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
+import { authGuard } from './auth/authGuard';
+
 // const loadComponent = (view) => {
 //   return () => import(`../views/${view}.vue`);
 // }
@@ -28,8 +30,8 @@ const routes = [
   {
     path: '/Sign_up',
     name: 'SignUp',
-    component: () => import(/* webpackChunkName: "vuex" */ './views/signUp.vue'),      
-
+    component: () => import(/* webpackChunkName: "vuex" */ './views/SignUp.vue'),      
+   
   },
 ]
 
