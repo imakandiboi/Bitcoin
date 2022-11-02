@@ -3,8 +3,11 @@
     <div class="container-md sign-up">
       <!-- Check that the SDK client is not currently loading before accessing is methods -->
       <div class="container-md sign">
-        <h1 class="font-quicksand signup-text">Get started On time with investing ..</h1>
-
+        <h1 class="font-quicksand signup-text py-5">
+          Get started On time with investing ..
+          <hr />
+          <span class="inner-txt"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quasi rem quaerat, enim molestias voluptatem pariatur tempore esse odit perferendis nulla soluta, mollitia nostrum! Beatae sint temporibus expedita quos voluptatem. </span>
+        </h1>
         <div class="pt-5 pb-5">
           <ul class="navbar-nav">
             <li v-if="!isAuthenticated && !isLoading" class="nav-item">
@@ -30,21 +33,6 @@
 
 <script>
 import { useAuth0 } from '@auth0/auth0-vue'
-// export default {
-//   name: 'SignupPage',
-//   methods: {
-//     // Log the user in
-//     login() {
-//       this.$auth.loginWithRedirect()
-//     },
-//     // Log the user out
-//     logout() {
-//       this.$auth.logout({
-//         returnTo: window.location.origin,
-//       })
-//     },
-//   },
-// }
 
 export default {
   data() {
@@ -81,7 +69,8 @@ export default {
 
   padding: 190px 40px 80px 40px;
 }
-.sign-in-box {
+.inner-txt {
+  font-size: 20px;
 }
 
 .font-quicksand {
