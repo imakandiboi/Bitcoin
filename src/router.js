@@ -3,11 +3,8 @@ import { createApp } from 'vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-import { authGuard } from './auth/authGuard';
 
-// const loadComponent = (view) => {
-//   return () => import(`../views/${view}.vue`);
-// }
+
 const routes = [
   {
     path: '/',
