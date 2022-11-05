@@ -14,10 +14,11 @@
             </div>
 
             <p style="font-size: 15px; line-height: 26px">Our funds focus on tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts. In addition, we invest in early token sales that interact with an actual business or product in the blockchain ecosystem.</p>
-
-            <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
-              <a href="user/register.php"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>
-            </div>
+            <router-link :to="{ path: '/Sign_up' }">
+              <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
+                <a href="/Sign_up"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>
+              </div>
+            </router-link>
           </div>
           <div class="col-md-6 img-sec">
             <div class="about-ceo">

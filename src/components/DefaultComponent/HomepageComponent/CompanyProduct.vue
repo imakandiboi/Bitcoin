@@ -47,7 +47,7 @@
       <div class="row justify-content-center m-auto">
         <div class="col-md-6">
           <div class="card bg-dark text-white my-3">
-            <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach" />
+            <img :src="image3" class="card-img" alt="Stony Beach" />
             <div class="card-img-overlay my-2">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-6">
           <div class="card bg-dark text-white my-3">
-            <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach" />
+            <img :src="image3" class="card-img" alt="Stony Beach" />
             <div class="card-img-overlay">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -135,7 +135,7 @@ export default {
 
   data() {
     return {
-      image3: require('@/assets/img/grow.jpeg'),
+      image3: require('@/assets/img/p2p.png'),
 
       image2: require('@/assets/img/grow.jpeg'),
       image: require('@/assets/img/stat.png'),

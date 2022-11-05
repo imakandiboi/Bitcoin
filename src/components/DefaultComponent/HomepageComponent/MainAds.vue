@@ -41,8 +41,8 @@
                 <div class="flex-col hero-caption">
                   <h1 class="h3-caption">BEST ANALYSIS FROM MARKET EXPERTS...</h1>
                   <p class="p-caption">
-                    ...Over 600,000 Coperate Firm and Individual Investors <br />
-                    And The Best Profitable Strategical analysis & Long-term Technical Predictions
+                    ... our values are in service of our customers. We strive to uphold our values every day. <br />
+                    We believe the financial system should be built to work for everyone. & That’s why we create products that let you start investing at your own pace, on your own terms.
                   </p>
                   <router-link :to="{ path: '/Sign_up' }">
                     <span class="gap-2">
@@ -63,10 +63,10 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="flex-col hero-caption">
-                  <h1 class="h3-caption">DIVERSIFYING ASSET & INVESTMENTS>></h1>
+                  <h1 class="h3-caption">DIVERSIFYING ASSET & INVESTMENTS.</h1>
                   <p class="p-caption">
-                    ...Over 600,000 Coperate Firm and Individual Investors <br />
-                    And The Best Profitable Strategical analysis & Long-term Technical Predictions
+                    Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. <br />
+                    . Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
                   </p>
                   <router-link :to="{ path: '/Sign_up' }">
                     <span class="gap-2">
@@ -244,10 +244,10 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="flex-col hero-caption">
-                  <h1 class="h3-caption">INVEST IN THE FUTURE</h1>
+                  <h1 class="h3-caption">SCAN THE BARCODE TO INVEST</h1>
                   <p class="p-caption">
-                    ...Over 600,000 Coperate Firm and Individual Investors <br />
-                    And The Best Profitable Strategical analysis & Long-term Technical Predictions
+                    ...Start Investing With Initial First Capital Cash R.O.I <br />
+                    With Starting Asset Investment of $500 & With 30% Profits Immediately On Deposit..
                   </p>
                   <router-link :to="{ path: '/Sign_up' }">
                     <span class="gap-2">
@@ -256,7 +256,7 @@
                   </router-link>
                 </div>
               </div>
-              <div class="col-md-6 image-section" :style="{ 'background-image': 'url(' + image2 + ')', backgroundPosition: 'center center', backgroundSize: 'cover' }">
+              <div class="col-md-6 image-section" :style="{ 'background-image': 'url(' + barcode + ')', backgroundPosition: 'center center', backgroundSize: 'cover' }">
                 <!-- <img class="hero-image" alt="" :src="image2" /> -->
               </div>
             </div>
@@ -305,6 +305,7 @@ export default {
       sliderimage2: require('@/assets/img/clustchart.png'),
       image2: require('@/assets/img/land-top.png'),
       image3: require('@/assets/img/idea.webp'),
+      barcode: require('@/assets/img/barcode.jpg'),
     }
   },
 
@@ -353,11 +354,11 @@ export default {
   padding: 0px;
   top: 0;
   left: 0;
-  color: rgba(248, 248, 248, 0.902);
+  color: rgba(21, 20, 20, 0.902);
 }
 
 .overlay-box {
-  background: #392f3192;
+  background: #f2f1f192;
   z-index: 1;
   width: 100%;
   /* for demo purpose  */
