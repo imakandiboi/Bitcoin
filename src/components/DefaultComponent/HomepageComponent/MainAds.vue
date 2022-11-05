@@ -358,7 +358,7 @@ export default {
 }
 
 .overlay-box {
-  background: #f2f1f192;
+  background: #ffffffde;
   z-index: 1;
   width: 100%;
   /* for demo purpose  */
@@ -440,7 +440,7 @@ a {
 
   .mobile-view {
     display: block;
-    height: 90vh;
+    height: 150vh;
     position: relative;
     background: #ffff;
   }

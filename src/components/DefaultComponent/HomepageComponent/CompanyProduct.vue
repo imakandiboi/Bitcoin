@@ -137,7 +137,7 @@ export default {
     return {
       image3: require('@/assets/img/p2p.png'),
 
-      image2: require('@/assets/img/grow.jpeg'),
+      image2: require('@/assets/img/charting.png'),
       image: require('@/assets/img/stat.png'),
     }
   },
