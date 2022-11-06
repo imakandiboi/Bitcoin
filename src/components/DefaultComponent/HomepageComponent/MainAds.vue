@@ -349,7 +349,7 @@ export default {
 
 .content {
   width: 100%;
-  height: 90vh;
+  height: 150vh;
   position: absolute;
   padding: 0px;
   top: 0;

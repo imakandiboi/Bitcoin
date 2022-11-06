@@ -31,7 +31,7 @@
                 <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
                   <div class="card">
                     <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 pt-5 fw-light">Best Investment Plan</h3>
+                    <h3 class="card-title m-2 pt-5 fw-light">BEST INVESTMENT PLAN.</h3>
                     <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="" class="m-2 btn-style2">Get Started</a>
                   </div>
