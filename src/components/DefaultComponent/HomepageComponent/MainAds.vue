@@ -317,7 +317,7 @@ export default {
 .mobile-view {
   position: relative;
   display: none;
-  height: 80vh;
+  height: 150vh;
 }
 .carousel .carousel-item {
   height: 800px;
