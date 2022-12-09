@@ -5,18 +5,18 @@
         <div class="row container font-quicksand">
           <div class="col-md-6 img-cap">
             <div class="section-heading title-style5 left half line-height-normal">
-              <span>Hedge Funds</span>
-              <h2>Our funds are diversified to include protocols and blockchain companies.</h2>
+              <span>Blockchain Assets</span>
+              <h2>Auro Capital Investment are diversified & also gives investors a chance to own BLOCKCHAIN ASSETS.</h2>
               <div class="square">
                 <span class="separator-left bg-theme"></span>
                 <span class="separator-right bg-theme"></span>
               </div>
             </div>
 
-            <p style="font-size: 15px; line-height: 26px">Our funds focus on tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts. In addition, we invest in early token sales that interact with an actual business or product in the blockchain ecosystem.</p>
+            <p style="font-size: 15px; line-height: 26px">Our fund provide investors with full spectrum of exposure to the space, ranging from illiquid venture capital assets to more liquid assets like bitcoin and other cryptocurrencies.</p>
             <router-link :to="{ path: '/Sign_up' }">
               <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
-                <a href="/Sign_up"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>
+                <a href="/Sign_up"><span class="btn-style2 small theme">GET STARTED</span></a>
               </div>
             </router-link>
           </div>
@@ -70,7 +70,10 @@ export default {
 .about-ceo img {
   width: 490px;
   height: 450px;
+  position: relative;
+  left: 95px;
 }
+
 .section-heading h2 {
   padding-bottom: 10px;
   font-weight: 700;
@@ -116,8 +119,10 @@ export default {
     padding: 0px;
   }
   .about-ceo img {
-    width: auto;
+    width: 370px;
     height: 350px;
+    position: relative;
+    left: 0px;
   }
 
   .img-sec {

@@ -49,7 +49,7 @@ export default {
 }
 
 .lander-text {
-  background: rgba(74, 72, 72, 0.05);
+  background: #000000;
   box-shadow: 0 8px 32px 0 rgba(137, 137, 137, 0.37);
   backdrop-filter: blur(16.5px);
   -webkit-backdrop-filter: blur(16.5px);

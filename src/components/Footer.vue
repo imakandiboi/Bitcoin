@@ -56,10 +56,10 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a href="#!" class="text-white">aurocapitalinvestment@aol.com</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 2</a>
+                    <a href="#!" class="text-white">Customer Support : +1(812)214-5262</a>
                   </li>
                 </ul>
               </div>
@@ -71,10 +71,10 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a href="#!" class="text-white">CoinMarketCap</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 2</a>
+                    <a href="#!" class="text-white">WallStreet Investors</a>
                   </li>
                 </ul>
               </div>
@@ -101,10 +101,14 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <router-link :to="{ path: '/About_us' }">
+                      <a href="#!" class="text-white">Our Vision</a>
+                    </router-link>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 2</a>
+                    <router-link :to="{ path: '/Investment_Plans' }">
+                      <a href="#!" class="text-white"> Annual Index Chart</a>
+                    </router-link>
                   </li>
                 </ul>
               </div>

@@ -4,26 +4,37 @@
     <div class="container-md sign-up">
       <!-- Check that the SDK client is not currently loading before accessing is methods -->
       <div class="container-md sign">
-        <h1 class="font-quicksand signup-text">Get started On time with investing ..</h1>
-        <hr />
-        <span class="inner-txt font-quicksand text-center"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quasi rem quaerat, enim molestias voluptatem pariatur tempore esse odit perferendis nulla soluta, mollitia nostrum! Beatae sint temporibus expedita quos voluptatem. </span>
-        <div class="pt-5 pb-5">
-          <ul class="navbar-nav">
-            <li v-if="!isAuthenticated && !isLoading" class="nav-item">
-              <a id="qsLoginBtn" class="btn-style2" @click.prevent="login">Login</a>
-            </li>
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="font-quicksand py-3 signup-text">Get started On time with investing</h1>
+            <span class="inner-txt font-quicksand text-left">
+              <p class="margin-30px-bottom sm-margin-20px-bottom width-95">Our hedge funds are the onestop alternative investments that are designed to protect investors' assets from market uncertainty, while generating positive returns in both up and down markets. Our hedge fund approach is achieved using pooled funds that employ different strategies to earn active returns, or alpha, for our investors. We combine aggressive management and make use of derivatives and leverage in both domestic and international markets with the goal of generating high returns (either in an absolute sense or over a specified market benchmark). <br /></p>
+            </span>
+          </div>
+          <div class="col-md-6">
+            <div class="pt-5 pb-1">
+              <ul class="navbar-nav py-3">
+                <li v-if="!isAuthenticated && !isLoading" class="nav-item">
+                  <a id="qsLoginBtn" class="btn-style2" @click.prevent="login">SIGN-UP NOW</a>
+                </li>
 
-            <li class="nav-item dropdown" v-if="isAuthenticated">
-              <a class="nav-link dropdown-toggle" href="#" id="profileDropDown" data-toggle="dropdown">
-                <img :src="user.picture" alt="User's profile picture" class="nav-user-profile rounded-circle" width="50" />
-              </a>
-              <div class="dropdown-menu dropdown-menu-right">
-                <div class="dropdown-header">{{ user.name }}</div>
-                <router-link to="/profile" class="dropdown-item dropdown-profile"> <font-awesome-icon class="mr-3" icon="user" />Profile </router-link>
-                <a id="qsLogoutBtn" href="#" class="dropdown-item" @click.prevent="logout"> Log out </a>
-              </div>
-            </li>
-          </ul>
+                <li class="nav-item dropdown" v-if="isAuthenticated">
+                  <a class="nav-link dropdown-toggle" href="#" id="profileDropDown" data-toggle="dropdown">
+                    <img :src="user.picture" alt="User's profile picture" class="nav-user-profile rounded-circle" width="50" />
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-header">{{ user.name }}</div>
+                    <router-link to="/profile" class="dropdown-item dropdown-profile"> <font-awesome-icon class="mr-3" icon="user" />Profile </router-link>
+                    <a id="qsLogoutBtn" href="#" class="dropdown-item" @click.prevent="logout"> Log out </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pt-1 pb-3">
+              <div class="image-section" :style="{ 'background-image': 'url(' + image3 + ')', backgroundPosition: 'center center', backgroundSize: 'cover' }"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -37,6 +48,7 @@ export default {
   data() {
     return {
       image: require('@/assets/img/signup.jpeg'),
+      image3: require('@/assets/img/icon/tap.png'),
     }
   },
   setup() {
@@ -69,7 +81,8 @@ export default {
   padding: 190px 40px 80px 40px;
 }
 .inner-txt {
-  font-size: 20px;
+  margin: 5px;
+  font-size: 17px;
 }
 
 .font-quicksand {
@@ -77,9 +90,14 @@ export default {
 }
 
 .signup-text {
-  font-size: 45px;
+  font-size: 35px;
 }
-
+.image-section {
+  height: 50px;
+  width: 50px;
+  justify-items: center;
+  align-items: center;
+}
 .btn-style2 {
   background: rgb(255, 255, 255);
   display: inline-block;

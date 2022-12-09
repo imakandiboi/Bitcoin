@@ -7,35 +7,41 @@
         <div class="container company-section">
           <div class="d-flex justify-content-center my-5 mt-3-md w-100">
             <div class="row gy-3 gx-lg-0">
-              <div class="col-md-4 col-sm">
-                <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card">
-                    <img :src="image3" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 pt-5 fw-light">30% RETURN ON INVESTMENT.</h3>
-                    <p class="m-2 card-text fw-light">30% return investment profit paid back after 21 days of Investment maturity. Starting off with minimum balance account opening .</p>
-                    <a href="" class="m-2 btn-style2">Get Started</a>
+              <div class="col-md-4 link-card col-sm">
+                <router-link :to="{ path: '/Sign_up' }">
+                  <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
+                    <div class="card">
+                      <img :src="image3" class="card-img-top" alt="Fissure in Sandstone" />
+                      <h3 class="card-title m-2 pt-5 fw-light">30% RETURN ON INVESTMENT.</h3>
+                      <p class="m-2 card-text fw-light">30% return investment profit paid back after 21 days of Investment maturity. Starting off with minimum balance account opening .</p>
+                      <a href="/Sign_up" class="m-2 btn-style2">Get Started</a>
+                    </div>
                   </div>
-                </div>
+                </router-link>
               </div>
-              <div class="col-md-4 col-sm">
-                <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card">
-                    <img :src="image" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 pt-5 fw-light">IN-DEPT MARKET ANALYSIS AND MARKET PREDICTIONS.</h3>
-                    <p class="m-2 card-text fw-light">With our Standard market analysts, we give the best market analysis and prediction according to standard trend of chart flow .</p>
-                    <a href="" class="m-2 btn-style2">Get Started</a>
+              <div class="col-md-4 link-card col-sm">
+                <router-link :to="{ path: '/Sign_up' }">
+                  <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
+                    <div class="card">
+                      <img :src="image" class="card-img-top" alt="Fissure in Sandstone" />
+                      <h3 class="card-title m-2 pt-5 fw-light">IN-DEPT MARKET ANALYSIS AND MARKET PREDICTIONS.</h3>
+                      <p class="m-2 card-text fw-light">With our Standard market analysts, we give the best market analysis and prediction according to standard trend of chart flow .</p>
+                      <a href="/Sign_up" class="m-2 btn-style2">Get Started</a>
+                    </div>
                   </div>
-                </div>
+                </router-link>
               </div>
-              <div class="col-md-4 col-sm px-sm-0">
-                <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
-                  <div class="card">
-                    <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
-                    <h3 class="card-title m-2 pt-5 fw-light">BEST INVESTMENT PLAN.</h3>
-                    <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="" class="m-2 btn-style2">Get Started</a>
+              <div class="col-md-4 link-card col-sm px-sm-0">
+                <router-link :to="{ path: '/Sign_up' }">
+                  <div class="card invest-card large-zoom py-sm-5 py-lg-0 py-md-0">
+                    <div class="card">
+                      <img :src="image2" class="card-img-top" alt="Fissure in Sandstone" />
+                      <h3 class="card-title m-2 pt-5 fw-light">BEST INVESTMENT PLAN.</h3>
+                      <p class="m-2 card-text fw-light">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="/Sign_up" class="m-2 btn-style2">Get Started</a>
+                    </div>
                   </div>
-                </div>
+                </router-link>
               </div>
             </div>
           </div>
@@ -47,19 +53,19 @@
       <div class="row justify-content-center m-auto">
         <div class="col-md-6">
           <div class="card bg-dark text-white my-3">
-            <img :src="image3" class="card-img" alt="Stony Beach" />
+            <img :src="image4" class="card-img" alt="Stony Beach" />
             <div class="card-img-overlay my-2">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title-box py-3 text-dark font-quicksand">Simple and Seamless Transaction</h5>
+              <p class="card-text font-quicksand text-dark">Our Seamless transaction makes it so easy to startup investment , just by scanning our address barcode and one-time you are set to go .</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card bg-dark text-white my-3">
-            <img :src="image3" class="card-img" alt="Stony Beach" />
+            <img :src="image5" class="card-img" alt="Stony Beach" />
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title-box py-3 font-quicksand">UP-TO-DATE CHART ANALYSIS WITH 98% MARKET PREDICTIONS OUTCOME</h5>
+              <p class="card-text font-quicksand">In Auro Capital our stock market predictions which tallies 98% of US stocks closed in the green on Thursday after a five-day slide but off their session-highs, as investors continued to assess the outlook for growth and the trajectory of monetary policy while awaiting key economic data..</p>
             </div>
           </div>
         </div>
@@ -136,6 +142,8 @@ export default {
   data() {
     return {
       image3: require('@/assets/img/p2p.png'),
+      image4: require('@/assets/img/btcedit.png'),
+      image5: require('@/assets/img/editbtc.png'),
 
       image2: require('@/assets/img/charting.png'),
       image: require('@/assets/img/stat.png'),
@@ -154,11 +162,21 @@ export default {
   cursor: pointer;
 }
 
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+.card-title-box {
+  font-size: 30px;
+  font-weight: bold;
+}
 .large-zoom:hover {
   transform: scale(0.9);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
-
+.link-card a {
+  color: #0d0d0d;
+  text-decoration-line: none;
+}
 .company-section {
   width: 100%;
   height: auto;
@@ -214,10 +232,16 @@ export default {
     width: 100%;
     height: auto;
   }
-
+  .card {
+    height: 550px;
+  }
   .offer-section {
     width: 100%;
     padding: 0px 0px;
+  }
+
+  .card-img {
+    height: 550px;
   }
 }
 </style>

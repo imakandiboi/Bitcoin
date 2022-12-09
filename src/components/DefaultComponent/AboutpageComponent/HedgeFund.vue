@@ -6,7 +6,6 @@
           <div class="col-md-6 img-sec">
             <div class="about-ceo">
               <img :src="image" alt="" />
-              <div class=""></div>
             </div>
           </div>
           <div class="col-md-6 img-cap">
@@ -22,7 +21,9 @@
             <p style="font-size: 15px; line-height: 26px">Our funds focus on tokens that incentivize the core actions of a protocol and/or excel in developing novel mechanisms for smart contracts. In addition, we invest in early token sales that interact with an actual business or product in the blockchain ecosystem.</p>
 
             <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
-              <a href="user/register.php"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>
+              <router-link :to="{ path: '/Sign_up' }">
+                <a href="/Sign_up"><span class="btn-style2 small theme">INVEST IN HEDGE FUNDS</span></a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -35,7 +36,7 @@
 export default {
   data() {
     return {
-      image: require('@/assets/img/fund.jpeg'),
+      image: require('@/assets/img/dolls.jpeg'),
     }
   },
 }
@@ -115,7 +116,7 @@ export default {
     padding: 0px;
   }
   .about-ceo img {
-    width: auto;
+    width: 370px;
     height: 350px;
   }
 
