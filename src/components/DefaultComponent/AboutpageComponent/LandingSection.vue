@@ -66,13 +66,15 @@ export default {
 
 .lander-text p {
   letter-spacing: 0;
-  color: #383838;
+  color: #dedede;
   font-weight: 400;
   /* margin: 0 0 20px; */
-  font-size: 20px;
+  font-size: 17px;
   word-spacing: 1px;
 }
-
+.top-cap {
+  color: #dedede;
+}
 .btn-style2 {
   background: rgb(56, 55, 55);
   display: inline-block;

@@ -56,10 +56,10 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">aurocapitalinvestment@aol.com</a>
+                    <a href="mail:aurocapitalinvestment@aol.com" target="_blank" class="text-white">aurocapitalinvestment@aol.com</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Customer Support : +1(812)214-5262</a>
+                    <a href="tel:+1(812)214-5262" target="_blank" class="text-white">Customer Support : +1(812)214-5262</a>
                   </li>
                 </ul>
               </div>
@@ -71,10 +71,10 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">CoinMarketCap</a>
+                    <a href="https://coinmarketcap.com/" target="_blank" class="text-white">CoinMarketCap</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">WallStreet Investors</a>
+                    <a href="https://www.wsj.com/" target="_blank" class="text-white">WallStreet Investors</a>
                   </li>
                 </ul>
               </div>
@@ -86,10 +86,10 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="#!" class="text-white">Link 1</a>
+                    <a href="https://blockexplorer.com/" target="_blank" class="text-white">BlockExplorer</a>
                   </li>
                   <li>
-                    <a href="#!" class="text-white">Link 2</a>
+                    <a href="https://crypto.com/" target="_blank" class="text-white">Crypto.com</a>
                   </li>
                 </ul>
               </div>
