@@ -53,7 +53,7 @@
                   <div class="badge"><span>30% off</span></div>
                 </div>
                 <div class="mt-5">
-                  <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                  <img :src="starterimagepro" alt="" class="card-img my-3" srcset="" />
                   <h3 class="heading">Professional's Choice<br />Level</h3>
                   <div class="mt-5">
                     <div class="progress">
@@ -87,7 +87,7 @@
                   <div class="badge"><span>25% off</span></div>
                 </div>
                 <div class="mt-5">
-                  <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                  <img :src="starterimage2" alt="" class="card-img my-3" srcset="" />
                   <h3 class="heading">Intermediate's Choice<br />Level</h3>
                   <div class="mt-5">
                     <div class="progress">
@@ -116,7 +116,9 @@ export default {
   data() {
     return {
       image: require('@/assets/img/advicer.jpeg'),
-      starterimage: require('@/assets/img/advicer.jpeg'),
+      starterimage: require('@/assets/img/oldinvest.jpeg'),
+      starterimagepro: require('@/assets/img/risebtc.jpeg'),
+      starterimage2: require('@/assets/img/proinvest.jpeg'),
     }
   },
 }

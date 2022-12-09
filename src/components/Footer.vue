@@ -133,7 +133,7 @@
         <!-- Copyright -->
         <div class="text-center p-5 font-quicksand copyright" style="background-color: rgba(0, 0, 0, 0.2)">
           © 2020 Copyright:
-          <a class="text-white" href="#">SITE NAME</a>
+          <a class="text-white" href="/Sign_up">Auro Capital Investment </a>
         </div>
         <!-- Copyright -->
       </footer>
