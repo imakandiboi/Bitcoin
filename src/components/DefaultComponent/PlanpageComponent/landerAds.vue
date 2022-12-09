@@ -4,99 +4,105 @@
       <div class="container card-container mb-3">
         <div class="row">
           <div class="col-md-4">
-            <div class="card p-2 mb-2 large-zoom">
-              <div class="d-flex justify-content-between">
-                <div class="d-flex flex-row align-items-center">
-                  <div class="icon"><i class="bx bxl-mailchimp"></i></div>
-                  <div class="ms-2 c-details">
-                    <h6 class="my-2">Starter's Chioce Investment Plan</h6>
-                    <span>min. deposit : $500</span>
-                    <br />
-                    <span>max. deposit : $999,999</span>
+            <router-link :to="{ path: '/Sign_up' }">
+              <div class="card p-2 mb-2 large-zoom">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="icon"><i class="bx bxl-mailchimp"></i></div>
+                    <div class="ms-2 c-details">
+                      <h6 class="my-2">Starter's Chioce Investment Plan</h6>
+                      <span>min. deposit : $500</span>
+                      <br />
+                      <span>max. deposit : $999,999</span>
+                    </div>
+                  </div>
+                  <div class="badge"><span>10% off</span></div>
+                </div>
+                <div class="mt-5">
+                  <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                  <h3 class="heading">Starter's Choice<br />Level</h3>
+                  <div class="mt-5">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="mt-3">
+                      <span class="text1">320,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
+                    </div>
+                    <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
+                      <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
+                    </div>
                   </div>
                 </div>
-                <div class="badge"><span>10% off</span></div>
               </div>
-              <div class="mt-5">
-                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Starter's Choice<br />Level</h3>
-                <div class="mt-5">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </router-link>
+          </div>
+          <div class="col-md-4">
+            <router-link :to="{ path: '/Sign_up' }">
+              <div class="card p-2 mb-2 large-zoom">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="icon"><i class="bx bxl-mailchimp"></i></div>
+                    <div class="ms-2 c-details">
+                      <h6 class="my-2">Professional's Choice Investment Plan</h6>
+                      <span>min. deposit : $1500</span>
+                      <br />
+
+                      <span>max. deposit : $999,999</span>
+                    </div>
                   </div>
-                  <div class="mt-3">
-                    <span class="text1">320,000 Investors Applied<span class="text2"> out of 2,500,000 Investors</span></span>
+                  <div class="badge"><span>30% off</span></div>
+                </div>
+                <div class="mt-5">
+                  <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                  <h3 class="heading">Professional's Choice<br />Level</h3>
+                  <div class="mt-5">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="mt-3">
+                      <span class="text1"> 1,380,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
+                    </div>
+                    <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
+                      <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+          <div class="col-md-4">
+            <router-link :to="{ path: '/Sign_up' }">
+              <div class="card p-2 mb-2 large-zoom">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="icon"><i class="bx bxl-mailchimp"></i></div>
+                    <div class="ms-2 c-details">
+                      <h6 class="my-2">Intermediate's Choice Investment Plan</h6>
+                      <span>min. deposit : $1000</span>
+                      <br />
+
+                      <span>max. deposit : $999,999</span>
+                    </div>
+                  </div>
+                  <div class="badge"><span>25% off</span></div>
+                </div>
+                <div class="mt-5">
+                  <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
+                  <h3 class="heading">Intermediate's Choice<br />Level</h3>
+                  <div class="mt-5">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="mt-3">
+                      <span class="text1">800,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
+                    </div>
                   </div>
                   <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
                     <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card p-2 mb-2 large-zoom">
-              <div class="d-flex justify-content-between">
-                <div class="d-flex flex-row align-items-center">
-                  <div class="icon"><i class="bx bxl-mailchimp"></i></div>
-                  <div class="ms-2 c-details">
-                    <h6 class="my-2">Professional's Choice Investment Plan</h6>
-                    <span>min. deposit : $1500</span>
-                    <br />
-
-                    <span>max. deposit : $999,999</span>
-                  </div>
-                </div>
-                <div class="badge"><span>30% off</span></div>
-              </div>
-              <div class="mt-5">
-                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Professional's Choice<br />Level</h3>
-                <div class="mt-5">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="mt-3">
-                    <span class="text1"> 1,380,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
-                  </div>
-                  <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
-                    <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card p-2 mb-2 large-zoom">
-              <div class="d-flex justify-content-between">
-                <div class="d-flex flex-row align-items-center">
-                  <div class="icon"><i class="bx bxl-mailchimp"></i></div>
-                  <div class="ms-2 c-details">
-                    <h6 class="my-2">Intermediate's Choice Investment Plan</h6>
-                    <span>min. deposit : $1000</span>
-                    <br />
-
-                    <span>max. deposit : $999,999</span>
-                  </div>
-                </div>
-                <div class="badge"><span>25% off</span></div>
-              </div>
-              <div class="mt-5">
-                <img :src="starterimage" alt="" class="card-img my-3" srcset="" />
-                <h3 class="heading">Intermediate's Choice<br />Level</h3>
-                <div class="mt-5">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="mt-3">
-                    <span class="text1">800,000 Investors Applied <span class="text2"> out of 2,500,000 Investors</span></span>
-                  </div>
-                </div>
-                <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom my-3">
-                  <a href="#"><span class="btn-style2 small theme">Get Started</span></a>
-                </div>
-              </div>
-            </div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -138,7 +144,10 @@ body {
   font-weight: 300;
   font-size: 13px;
 }
-
+.col-md-4 a {
+  text-decoration-line: none;
+  color: #232323;
+}
 .icon {
   width: 20px;
   height: 20px;
