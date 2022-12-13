@@ -18,4 +18,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 
 
+const app = createApp(App);
+app.use(
+    createAuth0({
+      domain: "dev-e15acq7e.us.auth0.com",
+      client_id: "s8JPMV1EUwta6XjgqU0Zh1Y3yXaPed9N",
+      redirect_uri: window.location.origin
+    })
+  );
+
 createApp(App).use(router).use(createAuth0({domain,client_id,redirect_uri: window.location.origin,})).mount("#app");

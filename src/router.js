@@ -1,9 +1,7 @@
 /* eslint-disable no-unused-vars */
-import { createApp } from 'vue';
-
 import { createRouter, createWebHistory } from 'vue-router';
 
-
+import { authGuard } from "./auth/authGuard";
 
 const routes = [
   {
@@ -29,6 +27,13 @@ const routes = [
     name: 'Register',
     component: () => import(/* webpackChunkName: "vuex" */ './views/Register.vue'),      
    
+  },
+
+  {
+    path: '/User_profile',
+    name: 'User',
+    component: () => import(/* webpackChunkName: "vuex" */ './views/User.vue'),      
+    beforeEnter: authGuard 
   },
 ]
 

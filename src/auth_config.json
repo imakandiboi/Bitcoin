@@ -1,4 +1,5 @@
 {
   "domain": "dev-e15acq7e.us.auth0.com",
-  "client_id": "9dEzER5epHJoAvZhkVIykAvpOFHbPYvB"
+  "client_id": "9dEzER5epHJoAvZhkVIykAvpOFHbPYvB",
+  "redirect_uri": "window.location.origin"
 }

@@ -38,13 +38,25 @@
                 </router-link>
               </li>
 
-              <li class="nav-item">
-                <router-link :to="{ path: '/Sign_up' }">
-                  <span class="d-flex align-items-center gap-2">
-                    <a class="nav-link" href="/Sign_up">Get Started</a>
-                  </span>
-                </router-link>
+              <!-- USER PROFILE SECTION -->
+              <li v-if="!isAuthenticated && !isLoading" class="nav-item gap-2">
+                <button id="qsLoginBtn" class="btn btn-margin" @click.prevent="login">Login / Sign Up</button>
               </li>
+
+              <!-- if login is verified it displays the user  -->
+
+              <div class="nav-item d-flex gap-2 auth" v-if="isAuthenticated">
+                <a class="nav-link d-flex" href="#">
+                  <img :src="user.picture" alt="User's profile picture" class="nav-user-profile rounded-circle d-flex" width="27" />
+                </a>
+                <li class="nav-item d-flex gap-2 auth">
+                  <div class="d-flex">{{ user.name }}</div>
+                  <router-link to="/profile" class="d-flex"> <font-awesome-icon class="mr-3" icon="user" />Profile </router-link>
+                  <a id="qsLogoutBtn" href="#" class="d-flex" @click.prevent="logout"> <font-awesome-icon class="mr-3" icon="power-off" />Log out </a>
+                </li>
+              </div>
+
+              <!-- USER PROFILE SECTION -->
             </ul>
           </div>
         </div>
@@ -60,11 +72,32 @@
 </template>
 
 <script>
+import { useAuth0 } from '@auth0/auth0-vue'
+
 export default {
   name: 'NavBar',
   data() {
     return {
       image: require('@/assets/img/bitcoin.png'),
+      loading: Boolean,
+    }
+  },
+
+  setup() {
+    const auth0 = useAuth0()
+
+    return {
+      isAuthenticated: auth0.isAuthenticated,
+      isLoading: auth0.isLoading,
+      user: auth0.user,
+      login() {
+        auth0.loginWithRedirect()
+      },
+      logout() {
+        auth0.logout({
+          returnTo: window.location.origin,
+        })
+      },
     }
   },
 }
@@ -76,6 +109,9 @@ export default {
 }
 .navbar-toggler {
   outline: none;
+}
+.auth {
+  padding: 2px 0px;
 }
 .widget {
   padding: 0px;
@@ -109,6 +145,9 @@ export default {
     position: absolute;
     top: 0.8%;
     z-index: 3;
+  }
+  .auth {
+    padding: 0px;
   }
 }
 </style>
